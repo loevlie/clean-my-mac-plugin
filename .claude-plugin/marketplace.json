@@ -1,0 +1,21 @@
+{
+  "name": "loevlie",
+  "owner": {
+    "name": "Dennis Loevlie"
+  },
+  "metadata": {
+    "description": "Free CleanMyMac X alternative as a Claude Code plugin",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "clean-my-mac",
+      "source": "./plugins/clean-my-mac",
+      "description": "macOS system cleanup that replicates CleanMyMac X via terminal. Cleans caches, logs, Xcode junk, package manager caches, iOS backups, mail attachments, and more.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Dennis Loevlie"
+      }
+    }
+  ]
+}

@@ -37,15 +37,18 @@ Just type `/clean-my-mac` in Claude Code and it handles the rest.
 
 ## Install
 
-```bash
-/plugin install clean-my-mac
+Add the marketplace and install:
+
+```
+/plugin marketplace add loevlie/clean-my-mac-plugin
+/plugin install clean-my-mac@loevlie
 ```
 
 Or manually clone and point Claude Code at it:
 
 ```bash
 git clone https://github.com/loevlie/clean-my-mac-plugin.git
-claude --plugin-dir ./clean-my-mac-plugin
+claude --plugin-dir ./clean-my-mac-plugin/plugins/clean-my-mac
 ```
 
 ## Safety
