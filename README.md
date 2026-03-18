@@ -44,7 +44,7 @@ Just type `/clean-my-mac` in Claude Code and it handles the rest.
 Or manually clone and point Claude Code at it:
 
 ```bash
-git clone https://github.com/yourusername/clean-my-mac-plugin.git
+git clone https://github.com/loevlie/clean-my-mac-plugin.git
 claude --plugin-dir ./clean-my-mac-plugin
 ```
 
