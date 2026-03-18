@@ -1,0 +1,8 @@
+{
+  "name": "clean-my-mac",
+  "description": "macOS system cleanup that replicates CleanMyMac X via terminal. Cleans caches, logs, Xcode junk, package manager caches, iOS backups, mail attachments, and more. Safe by default with dry-run scan mode.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Dennis Loevlie"
+  }
+}
